@@ -2,8 +2,6 @@ package com.inetBanking.testCases;
 
 import java.io.IOException;
 
-import org.apache.commons.lang3.RandomStringUtils;
-import org.junit.Assert;
 import org.testng.annotations.Test;
 
 import com.inetBanking.pageObjects.AddNewCustomerPage;

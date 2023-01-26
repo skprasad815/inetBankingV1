@@ -10,7 +10,7 @@ import com.inetBanking.pageObjects.LoginPage;
 public class TC_LoginTest_001 extends BaseClass {
 
 	
-	@Test 
+	@Test // (invocationCount = 2, threadPoolSize=2)
 	public void LoginTest() throws IOException {
 	
 	
