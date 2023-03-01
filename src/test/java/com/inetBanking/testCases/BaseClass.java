@@ -71,7 +71,7 @@ File target=new File(System.getProperty("user.dir")+"/Screenshots/"+ name + ".pn
 		FileUtils.copyFile(scrFile,target);
 		System.out.println("Screenshot taken");
 	}
-	public String RandomString() {
+	public String RandomString() { // used for generating random email in add customer test
 		
 		String generatedstring=RandomStringUtils.randomAlphabetic(8);
 		return generatedstring;
